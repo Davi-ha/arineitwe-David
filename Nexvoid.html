@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexvoid - Built by David</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #111, #222);
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 60px 20px;
+      animation: fadeIn 2s ease-out;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff1493;
+    }
+
+    h2 {
+      color: #00ffe5;
+      margin-top: 40px;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 10px auto;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin: 40px auto;
+      padding: 20px;
+      max-width: 900px;
+    }
+
+    .service-card {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 20px;
+      transition: 0.3s;
+    }
+
+    .service-card:hover {
+      background: #2a2a2a;
+      transform: translateY(-5px);
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      margin-top: 30px;
+      font-size: 1.1em;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: background 0.3s;
+    }
+
+    .whatsapp-btn:hover {
+      background: #1ebc59;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>💻 Nexvoid</h1>
+    <p>Built with ❤️ by David – Crafting digital love, bots & beautiful code</p>
+    <a class="whatsapp-btn" href="https://wa.me/256759074079" target="_blank">💬 Chat on WhatsApp</a>
+  </header>
+
+  <section>
+    <h2>✨ Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>💖 Romantic Chatbots</h3>
+        <p>AI-powered bots that keep love alive in every message.</p>
+      </div>
+      <div class="service-card">
+        <h3>💻 Web Development</h3>
+        <p>Beautiful, responsive websites built for all screens.</p>
+      </div>
+      <div class="service-card">
+        <h3>🛡️ Ethical Hacking</h3>
+        <p>Pen-testing & security setups for ethical use only.</p>
+      </div>
+      <div class="service-card">
+        <h3>📲 Android Tools</h3>
+        <p>Custom scripts & tools for Android and Termux projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Nexvoid. Made with ❤️ by David King
+  </footer>
+
+</body>
+</html>
